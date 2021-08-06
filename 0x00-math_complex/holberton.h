@@ -3,11 +3,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <complex.h>
+
 
 typedef struct math_complex
 {
-	double re, im;
+	double re;
+	double im;
 } complex;
 
 void display_complex_number(complex c);
